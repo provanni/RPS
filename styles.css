@@ -1,0 +1,66 @@
+/*Group IDs and Classes that fall under same element*/
+header {
+  height: auto;
+  width: 100%;
+  background-color: lightgrey;
+  opacity: 0.5;
+}
+
+h1  {
+  text-align: center;
+  font-family: arial;
+}
+
+button {
+  margin: auto;
+  display: block;
+  font-family: arial;
+  border-radius: 25px;
+  color: blue;
+  opacity: 0.5;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+p {
+  font-family: garamond;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/**User Selections**/
+fieldset {
+  margin: auto;
+  display: block;
+  height: 60px;
+  width: 250px;
+}
+
+td {
+  font-family: arial;
+  font-size: 17px;
+}
+
+select {
+  font-family: arial;
+  text-align: center;
+  font-size: 15px;
+  width: 100px;
+}
+
+select option:hover{
+  background-color: red;
+  cursor: pointer;
+  opacity: 0.7
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: lightgrey;
+}
